@@ -17,6 +17,8 @@ int main (int argc, const char * argv[])
     // insert code here...
     NSLog(@"Hello, World!");
 
+    
+    // Get ready to shut down - drain the autorelease pool -
     [pool drain];
     return 0;
 }
