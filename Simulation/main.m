@@ -16,6 +16,9 @@ int main (int argc, const char * argv[])
 
     
     // Code to perform the simulation goes here ....
+    // We'll need to create and setup a "datafile" instance
+    // We'll need to create and setup an instance of the mass balances
+    // We'll need to create and setup an instance of the solver ..
     
     
     // Get ready to shut down - drain the autorelease pool -
