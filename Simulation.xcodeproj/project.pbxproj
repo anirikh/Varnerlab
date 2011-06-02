@@ -27,7 +27,7 @@
 		ADF458701397DB0800B32434 /* Simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Simulation; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF458741397DB0800B32434 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ADF458771397DB0800B32434 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ADF4587A1397DB0800B32434 /* Simulation-Prefix.pch */ = {isa = PBXFileReference; path = "Simulation-Prefix.pch"; sourceTree = "<group>"; };
+		ADF4587A1397DB0800B32434 /* Simulation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simulation-Prefix.pch"; sourceTree = "<group>"; };
 		ADF4587B1397DB0800B32434 /* Simulation.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Simulation.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +71,9 @@
 		ADF458761397DB0800B32434 /* Simulation */ = {
 			isa = PBXGroup;
 			children = (
+				ADF458831397DB3A00B32434 /* solver */,
+				ADF458821397DB2A00B32434 /* model */,
+				ADF458811397DB1600B32434 /* data */,
 				ADF458771397DB0800B32434 /* main.m */,
 				ADF4587B1397DB0800B32434 /* Simulation.1 */,
 				ADF458791397DB0800B32434 /* Supporting Files */,
@@ -84,6 +87,27 @@
 				ADF4587A1397DB0800B32434 /* Simulation-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADF458811397DB1600B32434 /* data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		ADF458821397DB2A00B32434 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		ADF458831397DB3A00B32434 /* solver */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = solver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
