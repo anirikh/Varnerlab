@@ -14,9 +14,9 @@ int main (int argc, const char * argv[])
     // This creates the autorelease pool -
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
 
-    // insert code here...
-    NSLog(@"Hello, World!");
-
+    
+    // Code to perform the simulation goes here ....
+    
     
     // Get ready to shut down - drain the autorelease pool -
     [pool drain];
