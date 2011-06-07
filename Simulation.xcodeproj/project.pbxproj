@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CB9D15D139EB54F0075BA54 /* Solver_1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB9D15C139EB54F0075BA54 /* Solver_1.m */; };
 		ADF458751397DB0800B32434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF458741397DB0800B32434 /* Foundation.framework */; };
 		ADF458781397DB0800B32434 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF458771397DB0800B32434 /* main.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5CB9D15B139EB54F0075BA54 /* Solver_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solver_1.h; sourceTree = "<group>"; };
+		5CB9D15C139EB54F0075BA54 /* Solver_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Solver_1.m; sourceTree = "<group>"; };
 		ADF458701397DB0800B32434 /* Simulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Simulation; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF458741397DB0800B32434 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ADF458771397DB0800B32434 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -106,6 +109,8 @@
 		ADF458831397DB3A00B32434 /* solver */ = {
 			isa = PBXGroup;
 			children = (
+				5CB9D15B139EB54F0075BA54 /* Solver_1.h */,
+				5CB9D15C139EB54F0075BA54 /* Solver_1.m */,
 			);
 			name = solver;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF458781397DB0800B32434 /* main.m in Sources */,
+				5CB9D15D139EB54F0075BA54 /* Solver_1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +250,7 @@
 				ADF458801397DB0800B32434 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
