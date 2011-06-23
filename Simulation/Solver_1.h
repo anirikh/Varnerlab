@@ -11,23 +11,29 @@
 
 @interface Solver : NSObject 
 {
-    id RHS;
-    double tStart;
-    double tStop;
-    double tStep;
-    NSMutableArray* xInitial;
-    NSDictionary* pArams;
+    //   id RHS;
+@protected
+    double _tStart;
+    double _tStop;
+    double _tStep;
+    float **rateConstantVector;
+    float **initialConditionsVector;
+    float **stoichiometricMatrix;
+    float **measurementIndexVector;
+    NSMutableDictionary* _dataFile;
+    
     
 }
 
 -(void) print;
 // Display
--(void) setTstart: (double) Ts0;
--(void) setTstop: (double) Ts1;
--(void) setTstep: (double) Tst;
--(void) setParams: (NSDictionary*) Params;
--(void) setX0: (NSMutableArray*) X0;
--(void) setRHS: (id) RHS;
--(NSArray*) solve;
+@property (assign) double tStep;
+@property (assign) double tStart;
+@property (assign) double tStop;
+@property (retain) NSMutableDictionary *dataFile;
+
+-(void) obtainDataFileValues;
+
+// -(NSArray*) solve;
 
 @end
